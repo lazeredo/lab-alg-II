@@ -27,7 +27,7 @@ public class MinhaEmpresa implements Empresa {
 	@Override
 	public List<Departamento> listaDepartamentoOrdemCrescentePorQtdFuncionarios() {
 		
-		CompDptoFuncCre cdfc = new CompDptoFuncCre();
+		ComparadorDepartamentoFuncionarioCrescente cdfc = new ComparadorDepartamentoFuncionarioCrescente();
 		Collections.sort(lista, cdfc);
 		return lista;
 	}

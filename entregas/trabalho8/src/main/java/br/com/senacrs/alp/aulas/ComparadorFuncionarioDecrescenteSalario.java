@@ -2,7 +2,7 @@ package br.com.senacrs.alp.aulas;
 
 import java.util.Comparator;
 
-public class CompFuncDecSal implements Comparator<Funcionario> {
+public class ComparadorFuncionarioDecrescenteSalario implements Comparator<Funcionario> {
 
 	@Override
 	public int compare(Funcionario sal1, Funcionario sal2) {

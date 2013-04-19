@@ -2,7 +2,7 @@ package br.com.senacrs.alp.aulas;
 
 import java.util.Comparator;
 
-public class CompDptoFuncCre implements Comparator<Departamento> {
+public class ComparadorDepartamentoFuncionarioCrescente implements Comparator<Departamento> {
 
 	@Override
 	public int compare(Departamento dp1, Departamento dp2) {

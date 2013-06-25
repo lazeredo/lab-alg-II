@@ -7,11 +7,11 @@ public class Factory {
 	private Factory() {
 	}
 	
-	public ObterRequisicaoGet criarValidacao(ArquivoConfiguracao config) {
+	public ObterCabecalhoRequisicaoGet criarValidacao(ArquivoConfiguracao config) {
 	
-		ObterRequisicaoGet resultado = null;
+		ObterCabecalhoRequisicaoGet resultado = null;
 		
-		resultado = new MeuCriarValidacao(config);
+		resultado = new meuCriarValidacao(config);
 		
 		return resultado;
 	}
